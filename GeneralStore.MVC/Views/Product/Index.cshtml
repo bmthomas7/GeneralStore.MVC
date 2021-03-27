@@ -1,0 +1,20 @@
+﻿@model IEnumerable<GeneralStore.MVC.Models.Product>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Product</h2>
+<p>
+    Our General Store, locaded in central Indiana, is host to a multitude of fine food and items of distinction
+    <br/>
+    Come Browse our products and see what we have for you
+</p>
+
+@Html.ActionLink("Check Products", "Index", "Product", null, new { @class = "btn btn-primary btn-large" })
+
+
+
+
+
+
+
